@@ -142,6 +142,54 @@ if ((producto1 != "") && (producto2 != "") && (producto3 != "") && (producto4 !=
 }
 */
 
+//ACTIVIDAD 1 EL PIZARRON
+/*
+let cantidad = prompt ('Ingresar cantidad de repeticiones');
+let texto = prompt ('Ingresar tezto a repetor');
+for (let index = 0; index < cantidad; index++){
+    alert(texto);
+}
+*/
+/*
+let cantidad = prompt('Ingresar cantidad de repeticiones');
+let texto = prompt ('Ingresar texto a repetir');
+
+for (let i=0; i<cantidad; i++){
+    alert(texto);
+}
+*/
+
+//ACTIVIDAD 2 EL CUADRO ORDINARIO
+/*
+let numero = prompt('Elegir un numero de 1 a 10');
+
+for (let i = 0; i <= numero; i++) {
+    if (i>3){
+        break;
+    }
+alert ("lado");
+}
+*/
+
+// ACTIVIDAD 3 REGISTRO DE ALUMNOS
+/*
+let almnos = ' ';
+
+for (let i = 0; i<10; i++){
+    almnos += prompt ('Ingresar nonbre de alumnos') + '\n';
+
+}
+alert (almnos);
+*/
+
+//ACTIVIDAD 4 EL INNOMBRABLE
+
+let nombre = prompt('Ingresa un nombre');
+
+
+
+
+
 
 
 
