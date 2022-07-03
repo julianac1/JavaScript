@@ -92,3 +92,62 @@ if ((teclaUsuario == teclaYminuscula) || (teclaUsuario == teclaYmayuscula)){
 teclaUsuario = prompt('Presionar cualqueir tecla');
 */
 
+//ACTIVIDAD ESCOGER PERSONAJE:
+/*
+let homero = 1;
+let marge = 2;
+let bart = 3;
+let lisa = 4;
+let numeroUsuario = parseInt (prompt('Por favor, elegir un número entre 1 a 4'));
+
+if (numeroUsuario == homero){
+    alert ('Elegiste Homero');
+} else if (numeroUsuario == marge){
+    alert('Elegiste Marge');
+}else if (numeroUsuario == bart){
+    alert ('Elegiste Bart');
+}else if (numeroUsuario == lisa){
+    alert ('Elegiste Lisa');
+}else {
+    alert('Numero invalido');
+}
+*/
+
+//ACTIVIDAD 4 PRESUPUESTO
+/*
+let numeroUsuario = parseFloat(prompt('Por favor, seleccionar un número:'));
+
+if ((numeroUsuario >= 0) && (numeroUsuario <= 1000)){
+    alert ('Presupuesto bajo');
+}else if ((numeroUsuario >= 1001) && (numeroUsuario <= 3000)){
+    alert ('Presupuesto medio');
+}else if (numeroUsuario > 3000){
+    alert ('Presupuesto alto');
+}else {
+    alert('EROOR');
+}
+*/
+
+//ACTIVIDAD 5 VACIO
+/*
+let producto1 = prompt ('Producto 1');
+let producto2 = prompt ('Producto 2');
+let producto3 = prompt ('Producto 3');
+let producto4 = prompt ('Producto 4');
+
+if ((producto1 != "") && (producto2 != "") && (producto3 != "") && (producto4 != "")){
+    alert ('Sus productos son: '+producto1+" "+producto2+" "+producto3+" "+producto4);
+}else{
+    alert ("Error: Es necesario cargar todos los productos");
+}
+*/
+
+
+
+
+
+
+
+
+
+
